@@ -2,10 +2,16 @@
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
+#define vi vector<int>
+#define eb emplace_back
 #define ll long long
 
+void solve() {
+    
+}
+
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout<<"Hello World!"<<endl;
+    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    solve();
 }
