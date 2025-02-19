@@ -1,6 +1,7 @@
-# Compiler and flags
+# Compiler, c++ version and flags
 CC = g++
-CXXFLAGS = -I .
+STD = -std=c++20
+CXXFLAGS = -I . $(STD)
 
 # Target executable
 PROG = a

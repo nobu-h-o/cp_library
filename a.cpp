@@ -5,6 +5,8 @@ using namespace atcoder;
 #define vi vector<int>
 #define eb emplace_back
 #define ll long long
+#define uset unordered_set
+#define umap unordered_map
 
 void solve() {
     
