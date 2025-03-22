@@ -3,17 +3,17 @@
 using namespace std;
 using namespace atcoder;
 #define vi vector<int>
+#define pi pair<int,int>
 #define eb emplace_back
 #define ll long long
 #define uset unordered_set
 #define umap unordered_map
 
 void solve() {
-    
+  
 }
-
 int main() {
-    cin.tie(nullptr);
-    ios::sync_with_stdio(false);
-    solve();
+  cin.tie(nullptr);
+  ios::sync_with_stdio(false);
+  solve();
 }
