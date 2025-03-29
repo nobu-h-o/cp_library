@@ -6,11 +6,11 @@ using namespace atcoder;
 #define pi pair<int,int>
 #define eb emplace_back
 #define ll long long
-#define uset unordered_set
-#define umap unordered_map
+#define hashset unordered_set
+#define hashmap unordered_map
 
 void solve() {
-  
+  int n;cin>>n;
 }
 int main() {
   cin.tie(nullptr);
