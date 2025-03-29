@@ -10,7 +10,7 @@ using namespace atcoder;
 #define hashmap unordered_map
 
 void solve() {
-  int n;cin>>n;
+
 }
 int main() {
   cin.tie(nullptr);
