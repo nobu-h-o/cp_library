@@ -6,16 +6,20 @@ using namespace atcoder;
 #define vvi vector<vector<int>>
 #define vb vector<bool>
 #define pi pair<int,int>
+#define vpi vector<pair<int,int>>
+#define vvpi vector<vector<pair<int,int>>>
 #define eb emplace_back
+#define mp make_pair
 #define ll long long
 #define hashset unordered_set
 #define hashmap unordered_map
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep1(i, n) for (int i = 1; i <= (int)(n); i++)
-#define repi(i, a, b) for(int i = (int)a; i <= (int)b; i++)
+#define REP(i, a, b) for(int i = (int)a; i <= (int)b; i++)
+#define INF INT_MAX
 
 void solve() {
-
+  
 }
 int main() {
   cin.tie(nullptr);
