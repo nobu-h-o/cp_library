@@ -8,11 +8,14 @@ using namespace atcoder;
 #define pi pair<int,int>
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
+#define gi greater<int>
+#define gpi greater<pair<int,int>>
 #define eb emplace_back
 #define mp make_pair
 #define ll long long
 #define hashset unordered_set
 #define hashmap unordered_map
+#define pq priority_queue
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep1(i, n) for (int i = 1; i <= (int)(n); i++)
 #define REP(i, a, b) for(int i = (int)a; i <= (int)b; i++)
