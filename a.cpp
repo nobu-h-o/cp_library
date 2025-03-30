@@ -10,6 +10,9 @@ using namespace atcoder;
 #define ll long long
 #define hashset unordered_set
 #define hashmap unordered_map
+#define rep(i, n) for (int i = 0; i < (int)(n); i++)
+#define rep1(i, n) for (int i = 1; i <= (int)(n); i++)
+#define repi(i, a, b) for(int i = (int)a; i <= (int)b; i++)
 
 void solve() {
 
