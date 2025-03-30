@@ -3,6 +3,8 @@
 using namespace std;
 using namespace atcoder;
 #define vi vector<int>
+#define vvi vector<vector<int>>
+#define vb vector<bool>
 #define pi pair<int,int>
 #define eb emplace_back
 #define ll long long
