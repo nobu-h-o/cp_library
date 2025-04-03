@@ -22,9 +22,10 @@ using namespace atcoder;
 #define rep1(i, n) for (int i = 1; i <= (int)(n); i++)
 #define REP(i, a, b) for(int i = (int)a; i <= (int)b; i++)
 #define INF INT_MAX
+#define mod 998244353
 
 void solve() {
-  
+
 }
 int main() {
   cin.tie(nullptr);
