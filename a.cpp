@@ -21,13 +21,20 @@ using namespace atcoder;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep1(i, n) for (int i = 1; i <= (int)(n); i++)
 #define REP(i, a, b) for(int i = (int)a; i <= (int)b; i++)
+
 #define INF INT_MAX
 #define mod 998244353
 #define MOD 1000000007
 
+template<typename T>
+void chmax(T &a, const T &b) {a = (a > b? a : b);}
+template<typename T>
+void chmin(T &a, const T &b) {a = (a < b? a : b);}
+
 void solve() {
 
 }
+
 int main() {
   cin.tie(nullptr);
   ios::sync_with_stdio(false);
