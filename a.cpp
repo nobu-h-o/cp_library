@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
-#include <atcoder/all>
 using namespace std;
-using namespace atcoder;
+// #include <atcoder/all>
+// using namespace atcoder;
 #define ll long long
 #define vi vector<int>
 #define vvi vector<vector<int>>
@@ -26,5 +26,6 @@ void solve() {
 int main() {
   cin.tie(nullptr);
   ios::sync_with_stdio(false);
-  solve();
+  int t;cin>>t;
+  while(t--)solve();
 }
