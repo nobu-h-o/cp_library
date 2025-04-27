@@ -14,18 +14,15 @@ using namespace std;
 #define gi greater<int>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
-#define mp make_pair
 #define hashset unordered_set
 #define hashmap unordered_map
 #define pq priority_queue
 
 void solve() {
-
 }
 
 int main() {
   cin.tie(nullptr);
   ios::sync_with_stdio(false);
-  int t;cin>>t;
-  while(t--)solve();
+  solve();
 }
