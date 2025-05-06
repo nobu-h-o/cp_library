@@ -14,8 +14,6 @@ using namespace std;
 #define gi greater<int>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
-#define hashset unordered_set
-#define hashmap unordered_map
 #define pq priority_queue
 
 void solve() {
