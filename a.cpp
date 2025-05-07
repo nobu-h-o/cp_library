@@ -12,6 +12,7 @@ using namespace std;
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
 #define gi greater<int>
+#define gll greater<long long>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
 #define pq priority_queue
