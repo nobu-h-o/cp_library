@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-// #include <atcoder/all>
-// using namespace atcoder;
 #define ll long long
 #define vi vector<int>
 #define vvi vector<vector<int>>
