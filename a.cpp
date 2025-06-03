@@ -10,6 +10,7 @@ using namespace atcoder;
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
 #define vb vector<bool>
+#define vs vector<string>
 #define pi pair<int,int>
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
