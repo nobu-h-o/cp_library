@@ -17,6 +17,7 @@ using namespace atcoder;
 #define gll greater<long long>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
+#define ef emplace_front
 #define pq priority_queue
 
 void solve() {
