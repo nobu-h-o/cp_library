@@ -11,6 +11,8 @@ using namespace atcoder;
 #define vvll vector<vector<long long>>
 #define vb vector<bool>
 #define vs vector<string>
+#define vc vector<char>
+#define vvc vector<vector<char>>
 #define pi pair<int,int>
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
