@@ -1,0 +1,3 @@
+[submodule "live_library"]
+	path = live_library
+	url = git@github.com:atcoder/live_library.git
