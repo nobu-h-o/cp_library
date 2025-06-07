@@ -1,3 +1,6 @@
 [submodule "live_library"]
 	path = live_library
 	url = git@github.com:atcoder/live_library.git
+[submodule "kactl"]
+	path = kactl
+	url = git@github.com:kth-competitive-programming/kactl.git
