@@ -14,6 +14,7 @@ using namespace atcoder;
 #define vc vector<char>
 #define vvc vector<vector<char>>
 #define pi pair<int,int>
+#define pll pair<long long, long long>
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
 #define gi greater<int>
