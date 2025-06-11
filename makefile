@@ -25,5 +25,9 @@ $(OBJ): $(SRC)
 clean:
 	rm -f $(PROG) $(OBJ)
 
+# Run the executable
+run: $(PROG)
+	./$(PROG)
+
 # Phony targets to prevent conflicts with files named 'all', 'clean', or 'test'
-.PHONY: all clean test
+.PHONY: all clean run
