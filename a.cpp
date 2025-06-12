@@ -7,6 +7,7 @@ using namespace atcoder;
 #define ll long long
 #define vi vector<int>
 #define vvi vector<vector<int>>
+#define vvvi vector<vector<vector<int>>>
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
 #define vb vector<bool>
