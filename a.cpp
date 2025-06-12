@@ -8,8 +8,12 @@ using namespace atcoder;
 #define vi vector<int>
 #define vvi vector<vector<int>>
 #define vvvi vector<vector<vector<int>>>
+#define vd vector<double>
+#define vvd vector<vector<double>>
+#define vvvd vector<vector<vector<double>>>
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
+#define vvvll vector<vector<vector<long long>>>
 #define vb vector<bool>
 #define vs vector<string>
 #define vc vector<char>
