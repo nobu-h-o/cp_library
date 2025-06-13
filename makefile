@@ -21,13 +21,13 @@ $(PROG): $(OBJ)
 $(OBJ): $(SRC)
 	$(CC) -c $< $(CXXFLAGS)
 
-# Clean up generated files
-clean:
-	rm -f $(PROG) $(OBJ)
-
 # Run the executable
 run: $(PROG)
 	./$(PROG)
+
+# Clean up generated files
+clean:
+	rm -f $(PROG) $(OBJ)
 
 # Phony targets to prevent conflicts with files named 'all', 'clean', or 'test'
 .PHONY: all clean run
