@@ -30,6 +30,8 @@ using namespace atcoder;
 #define eb emplace_back
 #define ef emplace_front
 #define pq priority_queue
+#define umap unordered_map
+#define uset unordered_set
 
 void solve() {
 }
