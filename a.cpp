@@ -27,6 +27,7 @@ using namespace atcoder;
 #define umap unordered_map
 #define uset unordered_set
 #define int long long
+#define MAX LLONG_MAX
 
 void solve() {
 }
