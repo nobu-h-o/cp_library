@@ -28,6 +28,7 @@ using namespace atcoder;
 #define uset unordered_set
 #define int long long
 #define MAX LLONG_MAX
+#define MIN LLONG_MIN
 
 void solve() {
 }
