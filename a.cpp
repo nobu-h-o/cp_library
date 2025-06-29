@@ -4,16 +4,12 @@ using namespace std;
 #include <atcoder/all>
 using namespace atcoder;
 #endif
-#define ll long long
 #define vi vector<int>
 #define vvi vector<vector<int>>
 #define vvvi vector<vector<vector<int>>>
 #define vd vector<double>
 #define vvd vector<vector<double>>
 #define vvvd vector<vector<vector<double>>>
-#define vll vector<long long>
-#define vvll vector<vector<long long>>
-#define vvvll vector<vector<vector<long long>>>
 #define vmi vector<mint>
 #define vvmi vector<vector<mint>>
 #define vb vector<bool>
@@ -21,22 +17,21 @@ using namespace atcoder;
 #define vc vector<char>
 #define vvc vector<vector<char>>
 #define pi pair<int,int>
-#define pll pair<long long, long long>
 #define vpi vector<pair<int,int>>
 #define vvpi vector<vector<pair<int,int>>>
 #define gi greater<int>
-#define gll greater<long long>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
 #define ef emplace_front
 #define pq priority_queue
 #define umap unordered_map
 #define uset unordered_set
+#define int long long
 
 void solve() {
 }
 
-int main() {
+signed main() {
   cin.tie(nullptr);
   ios::sync_with_stdio(false);
   solve();
