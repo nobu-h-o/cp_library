@@ -11,4 +11,16 @@ struct UF {
   	e[a] += e[b]; e[b] = a;
   	return true;
   }
+  vvi groups() {
+    int n = e.size();
+    map<int,vi> group_map;
+    for (int i = 0; i < n; i++) {
+        group_map[find(i)].push_back(i);
+    }
+    vvi result;
+    for (const auto& pair : group_map) {
+    result.push_back(pair.second);
+    }
+    return result;
+  }
 };
