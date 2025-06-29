@@ -1,24 +1,5 @@
-#ifndef ATCODER_INTERNAL_BITOP_HPP
-#define ATCODER_INTERNAL_BITOP_HPP 1
-
-#ifdef _MSC_VER
-#include <intrin.h>
-#endif
-
-#if __cplusplus >= 202002L
-#include <bit>
-#endif
-
-namespace atcoder {
-
-namespace internal {
-
-#if __cplusplus >= 202002L
-
-using std::bit_ceil;
-
-#else
-
+// File: atcoder/internal_bit.hpp
+//
 // @return same with std::bit::bit_ceil
 unsigned int bit_ceil(unsigned int n) {
     unsigned int x = 1;
@@ -47,9 +28,4 @@ constexpr int countr_zero_constexpr(unsigned int n) {
     while (!(n & (1 << x))) x++;
     return x;
 }
-
-}  // namespace internal
-
-}  // namespace atcoder
-
-#endif  // ATCODER_INTERNAL_BITOP_HPP
+// EOF
