@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#if __has_include(<atcoder/all>)
-#include <atcoder/all>
-using namespace atcoder;
-#endif
 #define vi vector<int>
 #define vvi vector<vector<int>>
 #define vvvi vector<vector<vector<int>>>
