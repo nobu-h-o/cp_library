@@ -8,6 +8,7 @@ using namespace std;
 #define vvvd vector<vector<vector<double>>>
 #define vmi vector<mint>
 #define vvmi vector<vector<mint>>
+#define vvvmi vector<vector<vector<mint>>>
 #define vb vector<bool>
 #define vs vector<string>
 #define vc vector<char>
