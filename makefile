@@ -33,7 +33,9 @@ clean:
 .PHONY: all clean run
 
 reset:
-	echo '#include <bits/stdc++.h>' > a.cpp
+	echo '// Grass Block' > a.cpp
+	echo ' ' >> a.cpp
+	echo '#include <bits/stdc++.h>' >> a.cpp
 	echo 'using namespace std;' >> a.cpp
 	echo '#define vi vector<int>' >> a.cpp
 	echo '#define vvi vector<vector<int>>' >> a.cpp
@@ -74,16 +76,14 @@ reset:
 	echo '}' >> a.cpp
 	echo '' >> a.cpp
 	echo 'void solve() {' >> a.cpp
-	echo '  while (1){' >> a.cpp
-	echo '    int n = 0;' >> a.cpp
-	echo '    cin >> n;' >> a.cpp
-	echo '    if (n == 0) return;' >> a.cpp
-	echo '    ' >> a.cpp
-	echo '  }' >> a.cpp
+	echo '  int n = 0;' >> a.cpp
+	echo '  cin >> n;' >> a.cpp
+	echo '  if (n == 0) exit(0);' >> a.cpp
+	echo '  ' >> a.cpp
 	echo '}' >> a.cpp
 	echo '' >> a.cpp
 	echo 'signed main() {' >> a.cpp
 	echo '  cin.tie(nullptr);' >> a.cpp
 	echo '  ios::sync_with_stdio(false);' >> a.cpp
-	echo '  solve();' >> a.cpp
+	echo '  while(1) solve();' >> a.cpp
 	echo '}' >> a.cpp
