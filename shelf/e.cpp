@@ -92,7 +92,7 @@ void solve() {
   // traversal
   vi ans;
   int t=0;
-  uset<int>vis({1});
+  uset<int>vis;
   for(auto [dis,leaf]:mp){
     // get route to leaf
     vi route;
@@ -101,39 +101,13 @@ void solve() {
       leaf = g[leaf][0].first;
     }
     reverse(route.begin(),route.end());
-    for(int l:route)cout<<l<<" ";
-    cout<<endl;
     
-    // int prevLeaf=1;
-    // for(int lvs:route){
-    //   if(vis.contains(lvs)){
-    //     ans.eb(lvs);
-    //   }else{
-    //     t++;
-    //     if(g[lvs][prevLeaf].second<t){
-    //       cout<<g[lvs][prevLeaf].second<<endl;
-    //       cout<<"no"<<endl;
-    //       return;
-    //     }
-    //   }
-    //   prevLeaf=lvs;
-    // }
     int sz=route.size();
-    for(int i=0;i<sz-1;i++){
-      if(vis.contains(route[i])){
-        ans.eb(route[i]);
-      }else{
-        t++;
-        // cout<<g[route[i]][route[i+1]].second<<endl;
-        // if(g[route[i]][route[i+1]].second<t){
-        //   cout<<"no"<<endl;
-        //   return;
-        // }
-      }
+    for(int i=0;i<sz;i++){
+      
     }
   }
-  for(int i:ans)cout<<i<<" ";
-  cout<<endl;
+
 }
 
 signed main() {
