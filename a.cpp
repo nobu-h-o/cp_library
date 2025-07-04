@@ -28,6 +28,10 @@ using namespace std;
 #define MIN LLONG_MIN
 #define all(a) (a).begin(), (a).end()
 #define rall(a) (a).rbegin(), (a).rend()
+#define rep(...) overload_rep(__VA_ARGS__, rep2, rep1)(__VA_ARGS__)
+#define overload_rep(_1, _2, _3, NAME, ...) NAME
+#define rep1(i, n) for (int i = 0; i < (n); ++i)
+#define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 template< typename T >
 istream &operator>>(istream &is, vector< T > &v) {
     for(T &in : v) is >> in;
@@ -39,10 +43,7 @@ void solve() {
     int n = 0;
     cin >> n;
     if (n == 0) return;
-    vi a(n);
-    cin >> a;
-    sort(rall(a));
-    cout << a[0] << endl;
+    
   }
 }
 
