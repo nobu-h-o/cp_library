@@ -36,13 +36,9 @@ istream &operator>>(istream &is, vector< T > &v) {
 
 void solve() {
   while (1){
-    int n = 0;
-    cin >> n;
-    if (n == 0) return;
-    vi a(n);
-    cin >> a;
-    sort(rall(a));
-    cout << a[0] << endl;
+    int n=0;
+    cin>>n;
+    if(n==0) return;
   }
 }
 

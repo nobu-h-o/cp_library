@@ -39,10 +39,6 @@ void solve() {
     int n = 0;
     cin >> n;
     if (n == 0) return;
-    vi a(n);
-    cin >> a;
-    sort(rall(a));
-    cout << a[0] << endl;
   }
 }
 
