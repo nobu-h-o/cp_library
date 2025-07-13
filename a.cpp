@@ -13,9 +13,9 @@ using namespace std;
 #define vs vector<string>
 #define vc vector<char>
 #define vvc vector<vector<char>>
-#define pi pair<int,int>
-#define vpi vector<pair<int,int>>
-#define vvpi vector<vector<pair<int,int>>>
+#define pii pair<int,int>
+#define vpii vector<pair<int,int>>
+#define vvpii vector<vector<pair<int,int>>>
 #define gi greater<int>
 #define gpi greater<pair<int,int>>
 #define eb emplace_back
