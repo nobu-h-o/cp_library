@@ -1,5 +1,5 @@
 # Compiler, c++ version and flags
-CC = g++
+CC = g++-15
 STD = -std=c++20
 CXXFLAGS = -O2 -Wall $(STD)
 
