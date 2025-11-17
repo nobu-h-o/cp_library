@@ -17,7 +17,7 @@ using namespace std;
 #define vpii vector<pair<int,int>>
 #define vvpii vector<vector<pair<int,int>>>
 #define gi greater<int>
-#define gpi greater<pair<int,int>>
+#define gpii greater<pair<int,int>>
 #define eb emplace_back
 #define ef emplace_front
 #define pq priority_queue
