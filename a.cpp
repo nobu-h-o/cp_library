@@ -20,6 +20,7 @@ using namespace std;
 #define gpii greater<pair<int,int>>
 #define eb emplace_back
 #define ef emplace_front
+#define ep emplace
 #define pq priority_queue
 #define umap unordered_map
 #define uset unordered_set
