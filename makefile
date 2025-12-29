@@ -24,7 +24,7 @@ $(OBJ): $(SRC)
 
 # Debug build with -g flag
 debug: CXXFLAGS = $(DEBUGFLAGS)
-debug: $(PROG)
+debug: clean $(PROG)
 
 # Run the executable
 run: $(PROG)
