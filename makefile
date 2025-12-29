@@ -2,6 +2,7 @@
 CC = g++-15
 STD = -std=c++20
 CXXFLAGS = -O2 -Wall $(STD)
+DEBUGFLAGS = -g -O2 -Wall $(STD)
 
 # Target executable
 PROG = a
@@ -21,6 +22,10 @@ $(PROG): $(OBJ)
 $(OBJ): $(SRC)
 	$(CC) -c $< $(CXXFLAGS)
 
+# Debug build with -g flag
+debug: CXXFLAGS = $(DEBUGFLAGS)
+debug: $(PROG)
+
 # Run the executable
 run: $(PROG)
 	./$(PROG)
@@ -29,5 +34,5 @@ run: $(PROG)
 clean:
 	rm -f $(PROG) $(OBJ)
 
-# Phony targets to prevent conflicts with files named 'all', 'clean', or 'test'
-.PHONY: all clean run
+# Phony targets to prevent conflicts with files named 'all', 'clean', 'run', 'debug'
+.PHONY: all clean run debug
