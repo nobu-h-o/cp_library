@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+///{{{ macros
 #define vi vector<int>
 #define vvi vector<vector<int>>
 #define vvvi vector<vector<vector<int>>>
@@ -27,6 +28,7 @@ using namespace std;
 #define int long long
 #define MAX LLONG_MAX
 #define MIN LLONG_MIN
+///}}}
 
 void solve() {
 }
