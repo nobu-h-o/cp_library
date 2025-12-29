@@ -1,3 +1,4 @@
+///{{{ topological_sort
 bool topological_sort(vector<vector<int>>& edge, vector<int>& inedge, int n) {
   vector<int> ans;
   priority_queue<int, vector<int>, greater<int>> que; // min-heap
@@ -23,3 +24,4 @@ bool topological_sort(vector<vector<int>>& edge, vector<int>& inedge, int n) {
   }
   return (int)ans.size()==n;
 }
+///}}}

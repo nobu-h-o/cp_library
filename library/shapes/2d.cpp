@@ -1,3 +1,4 @@
+///{{{ 2d
 //https://atcoder.jp/contests/abc218/editorial/2598
 vector<vector<char>> rot(const vector<vector<char>>& S) {
   int N = S.size();
@@ -44,3 +45,4 @@ bool same(const vector<vector<char>>& S, const vector<vector<char>>& T) {
   }
   return true;
 }
+///}}}

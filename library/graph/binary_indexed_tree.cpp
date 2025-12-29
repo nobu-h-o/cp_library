@@ -1,4 +1,5 @@
 // https://atcoder.jp/contests/abc221/editorial/2718
+///{{{ binary_indexed_tree
 struct binary_indexed_tree{
     int N;
     vector<ll> bit;
@@ -19,3 +20,4 @@ struct binary_indexed_tree{
         return ret;
     }
 };
+///}}}

@@ -1,3 +1,4 @@
+///{{{ SegmentTree
 // source: https://nyaannyaan.github.io/library/segment-tree/segment-tree.hpp
 #pragma once
 
@@ -118,3 +119,4 @@ struct SegmentTree {
     return 0;
   }
 };
+///}}}

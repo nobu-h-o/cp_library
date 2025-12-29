@@ -1,3 +1,4 @@
+///{{{ UF
 struct UF {
   vi e;
   UF(int n) : e(n, -1) {}
@@ -24,3 +25,4 @@ struct UF {
     return result;
   }
 };
+///}}}

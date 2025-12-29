@@ -1,3 +1,4 @@
+///{{{ mint
 // https://qiita.com/uesho/items/1ee5c3e665c72c035880
 //const int mod = 1000000007;
 const int mod = 998244353;
@@ -56,3 +57,4 @@ public:
     return os;
   }
 };
+///}}}

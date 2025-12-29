@@ -1,3 +1,4 @@
+///{{{ fraction
 struct fraction{
   int p,q;
   fraction(int P=0, int Q=1):p(P),q(Q){}
@@ -14,3 +15,4 @@ struct fraction{
     return p*other.q>=other.p*q;
   }
 };
+///}}}

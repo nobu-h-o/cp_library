@@ -1,3 +1,4 @@
+///{{{ FT
 /**
  * Author: Lukas Polacek
  * Date: 2009-10-30
@@ -32,4 +33,5 @@ struct FT {
 		return pos;
 	}
 };
+///}}}
 
