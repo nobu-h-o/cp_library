@@ -38,6 +38,11 @@ using namespace std;
 #define int long long
 #define MAX LLONG_MAX
 #define MIN LLONG_MIN
+template<typename T>
+istream &operator>>(istream &is, vector<T> &v) {
+  for(T &in : v) is >> in;
+  return is;
+}
 ///}}}
 
 void solve() {
