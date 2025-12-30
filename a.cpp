@@ -25,8 +25,11 @@ using namespace std;
 #define pq priority_queue
 #define umap unordered_map
 #define uset unordered_set
-#define rep(i,n) for(int i=0;i<(int)n;i++)
-#define repi(i,a,b) for(int i=(int)a;i<(int)b;i++)
+#define rep(...) overload_rep(__VA_ARGS__,rep3,rep2,rep1)(__VA_ARGS__)
+#define overload_rep(_1,_2,_3,NAME,...)NAME
+#define rep1(n) for(int i=0;i<n;i++)
+#define rep2(i,n) for(int i=0;i<n;i++)
+#define rep3(i,a,b) for(int i=a;i<b;i++)
 #define int long long
 #define MAX LLONG_MAX
 #define MIN LLONG_MIN
