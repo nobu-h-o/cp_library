@@ -27,9 +27,14 @@ using namespace std;
 #define uset unordered_set
 #define rep(...) overload_rep(__VA_ARGS__,rep3,rep2,rep1)(__VA_ARGS__)
 #define overload_rep(_1,_2,_3,NAME,...)NAME
-#define rep1(n) for(int i=0;i<n;i++)
-#define rep2(i,n) for(int i=0;i<n;i++)
-#define rep3(i,a,b) for(int i=a;i<b;i++)
+#define rep1(n) for(int i=0;i<(n);i++)
+#define rep2(i,n) for(int i=0;i<(n);i++)
+#define rep3(i,a,b) for(int i=(a);i<(b);i++)
+#define per(...) overload_per(__VA_ARGS__,per3,per2,per1)(__VA_ARGS__)
+#define overload_per(_1,_2,_3,NAME,...)NAME
+#define per1(n) for(int i=(n);i>=0;i--)
+#define per2(i,n) for(int i=(n);i>=0;i--)
+#define per3(i,a,b) for(int i=(b);i>=(a);i--)
 #define int long long
 #define MAX LLONG_MAX
 #define MIN LLONG_MIN
